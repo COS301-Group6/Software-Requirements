@@ -10,26 +10,35 @@
   % 2
   \section{Vision}
   % 3
-  \paragraph*{The aim of this project is to provide a mobile web-based marking IT solution to the client University of Pretoria, that allows users to upload student marks to a mark sheet and also be able to use these marks at a later stage. The solution is aimed to be easy to use and more efficient than the pen-and-paper marking system.}
+  \paragraph*{The aim of this project is to provide a mobile web-based marking IT solution to the client, Mr Jan Kroeze at the University of Pretoria, that allows users to upload student marks to a mark sheet and also be able to use these marks at a later stage. The solution is aimed to be easy to use and more efficient than the pen-and-paper marking system.}
   \section{Background}
   % 4
   \section{Architecture requirements}
   % 4.1
   \subsection{Access channel requirements}
-  \paragraph*{Lecturers, tutors and students will access this system's services through a Mobile Android application. They will also be able to use this system's services through a web browser interface.}
+  \paragraph*{Lecturers, tutors and students will access this system's services through a Mobile Android application. They will also be able to use this system's services through a web browser interface. A lecturer will be able to manage the marks and will be able to extract mark lists as csv files.}
   % 4.2
   \subsection{Quality requirements}
-  \paragraph*{
-  \\Auditability/Monitorability - Everything that happens on the system must be saved in a log and must be able to be queried. Changes and deletion of marks will be logged. Any updates made as well as additions added will be logged.
-  \\\\Cost - 
-  \\\\Flexibility - The application will work on Mobile phones with an Android operating system. The web interface will be able to be viewed from mobile devices of personal computers.
-  \\\\Integrability - 
-  \\\\Maintainability - 
-  \\\\Performance - 
-  \\\\Reliability - The application will always be online and will be usable as long as users are connected to the internet, same applies to the web interface.
-  \\\\Scalability - Performance and reliability should not be dependent on the amount of users on the system.
-  \\\\Security - Users will have to log in with their specific user name and password to access the system. Lecturers will be able to change closing times of mark sheets, change marks and view reports. Tutors will be able to input student marks which he is assigned to. Students will only be able to view their own marks.
-  \\\\Usability - }
+\begin{description}
+  \item[Auditability:] \hfill  \\
+  (Source: Jan Kroeze, Priority: High, Requirement: NFRQ1) \\
+  Everything that happens on the system must be saved in a log and must be able to be queried. Especially alterations to marks will be logged. Any updates made as well as additions added will be logged. \\
+  \item[Flexibility:] \hfill \\
+  (Source: Jan Kroeze, Priority: Medium, Requirement: NFRQ2) \\
+  The application will work on Mobile phones with an Android operating system. The web interface will be able to be viewed from a mobile device or from a personal computer.\\
+  \item[Reliability:] \hfill \\
+  (Source: Jan Kroeze, Priority: High, Requirement: NFRQ3) \\
+  The application will always be on line and will be usable as long as users are connected to the internet, same applies to the web interface. If the user loses internet connection the system will make a local backup on the device being used and will commit this data to the system as soon as it gets internet connection again.\\
+  \item[Scalability:] \hfill \\
+  (Source: Jan Kroeze, Priority: High, Requirement: NFRQ4) \\
+  The system needs to react quickly on input or commands. Performance and reliability should not be dependent on the amount of users on the system.\\
+  \item[Security:] \hfill \\
+  (Source: Jan Kroeze, Priority: High, Requirement: NFRQ5) \\
+  Users will have to log in with their specific user name and password to access the system. Only valid users, with valid authentication and presence on the system may gain access to the system. Lecturers will be able to change closing times of mark sheets, change marks and view reports. Tutors will be able to input student marks which he/she is assigned to. Students will only be able to view their own marks.  \\
+  \item[Usability:] \hfill \\
+  (Source: Jan Kroeze, Priority: High, Requirement: NFRQ6) \\
+  It must be a simple, easy to use system.
+\end{description} 
   % 4.3
   \subsection{Integration requirements}
   % 4.4
