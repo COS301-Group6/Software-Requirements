@@ -42,8 +42,44 @@
 \end{description} 
   % 4.3
   \subsection{Integration requirements}
+  \paragraph{
+  The csv file that comes from the cs website, will import the students onto a mark sheet to have the list of students.
+  }
+  \paragraph{
+  The integration channel that is being used is where the application or website is integrated with the mark sheet (database) so that they are in synchronous. When the application is started up it can get its data from the database and when a mark has been entered it will update after entering of the one mark that was entered. It will be so small of a file that when the update is made it will change almost instantly.
+  }
+  \paragraph{
+  The protocol that is used, the system (the application or website is integrated with mark sheet) is responsible for transforming data across industry standard protocols. A JSON to SOAP conversion or a SOAP/HTTP to a SOAP/JMS or SOAP/Message Queue conversion would be responsibilities of this system. 
+  }
+  \paragraph{
+  Any quality requirements for the integration itself, is performance, audit. In performance the file must be in smallest format, in audit the system lock and when things are send it must be able to check the time the file was sent
+  }
+  \paragraph{
+  The mark sheet can also be exported to a csv or a pdf for email purpose or a new mark sheet
+  }
   % 4.4
   \subsection{Architecture constraints}
+  \paragraph{
+  The technologies that are being used are:
+  }
+  \begin{itemize}
+  \item Python, Django
+  \item Android
+  \item SQL
+  \item HTML 5
+  \item CSS
+  \item https/http
+  \item Csv
+  \item Pdf
+  \item XML
+  \item POP3 and SMTP
+\end{itemize}
+\paragraph{Client-Queue-Client systems – passive queue architecture}
+\paragraph{This approach allows markers to send marks to a mark sheet. Markers can read data from and send data to a server that acts simply as a queue to store the data and let the lecturer edit and look at the marks and students retrieve marks to browse. This allows multiple users to distribute and synchronize files and information. The fact that this architecture has a queue, that is all why this will be used. This architecture will be used partially for the system. 
+}
+\paragraph{SOAP interface is what this system is mainly going to focus on }
+\paragraph{It is a protocol to send markup(structured) information of web services, the system will work on xml and csv. It dependent on message frameworks; which is the smallest over internet for communication. For when the marker retrieve of the mark sheet and giving marks the system will synchronous. The sync will be between application/website and mark sheet(database).
+}
   % 5
   \section{Functional requirements}
   % 5.1
