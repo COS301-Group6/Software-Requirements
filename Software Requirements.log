@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.2.24)  27 FEB 2014 19:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.2.24)  27 FEB 2014 21:16
 entering extended mode
 **Software*Requirements.tex
 
@@ -156,133 +156,248 @@ LaTeX Font Info:    ... okay on input line 4.
 toc")
 \tf@toc=\write3
  [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
 
+Overfull \hbox (8.47476pt too wide) in paragraph at lines 28--31
+\OT1/cmr/bx/n/12 (Source: Jan Kroeze, Pri-or-ity: Crit-i-cal, Re-quire-ment: NF
+RQ1) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
 
  []
 
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--38
+Overfull \hbox (24.75255pt too wide) in paragraph at lines 31--34
+\OT1/cmr/bx/n/12 (Source: Jan Kroeze, Pri-or-ity: Im-por-tant, Re-quire-ment: N
+FRQ2) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+
+ []
+
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+
+Overfull \hbox (8.47476pt too wide) in paragraph at lines 34--37
+\OT1/cmr/bx/n/12 (Source: Jan Kroeze, Pri-or-ity: Crit-i-cal, Re-quire-ment: NF
+RQ3) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 38--41
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
 
+Overfull \hbox (8.47476pt too wide) in paragraph at lines 37--40
+\OT1/cmr/bx/n/12 (Source: Jan Kroeze, Pri-or-ity: Crit-i-cal, Re-quire-ment: NF
+RQ4) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--44
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
 
+ []
+
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+
+Overfull \hbox (8.47476pt too wide) in paragraph at lines 40--43
+\OT1/cmr/bx/n/12 (Source: Jan Kroeze, Pri-or-ity: Crit-i-cal, Re-quire-ment: NF
+RQ5) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--43
+
+ []
+
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+
+Overfull \hbox (24.75255pt too wide) in paragraph at lines 43--46
+\OT1/cmr/bx/n/12 (Source: Jan Kroeze, Pri-or-ity: Im-por-tant, Re-quire-ment: N
+FRQ6) 
  []
 
 [5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
- [6] [7] [8]
-Overfull \hbox (11.10004pt too wide) in paragraph at lines 105--105
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+ [6] [7]
+Overfull \hbox (11.10004pt too wide) in paragraph at lines 98--98
  \OT1/cmr/bx/n/12 (Source: Jan Kroeze, Pri-or-ity: Nice-To-Have, Re-quire-ment:
  FRQ11) 
  []
 
-<UseCaseDiagram1.png, id=31, 657.2053pt x 609.02531pt>
+<UseCaseDiagram1.png, id=28, 657.2053pt x 609.02531pt>
 File: UseCaseDiagram1.png Graphic file (type png)
 
 <use UseCaseDiagram1.png>
-Package pdftex.def Info: UseCaseDiagram1.png used on input line 111.
+Package pdftex.def Info: UseCaseDiagram1.png used on input line 104.
 (pdftex.def)             Requested size: 512.1496pt x 474.61035pt.
 
-Overfull \hbox (65.2441pt too wide) in paragraph at lines 111--112
+Overfull \hbox (65.2441pt too wide) in paragraph at lines 104--105
  [] 
  []
 
-[9] <UseCaseDiagram2.png, id=36, 583.42969pt x 403.5075pt>
+[8] <UseCaseDiagram2.png, id=33, 583.42969pt x 403.5075pt>
 File: UseCaseDiagram2.png Graphic file (type png)
 
 <use UseCaseDiagram2.png>
-Package pdftex.def Info: UseCaseDiagram2.png used on input line 117.
+Package pdftex.def Info: UseCaseDiagram2.png used on input line 110.
 (pdftex.def)             Requested size: 455.24408pt x 314.86388pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 117--118
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 110--111
  [] 
  []
 
-[10 <C:/Users/Melany/Documents/GitHub/Software-Requirements/UseCaseDiagram1.png
->] <UseCaseDiagram3.png, id=41, 655.69969pt x 252.945pt>
+[9 <C:/Users/Melany/Documents/GitHub/Software-Requirements/UseCaseDiagram1.png>
+] <UseCaseDiagram3.png, id=38, 655.69969pt x 252.945pt>
 File: UseCaseDiagram3.png Graphic file (type png)
 
 <use UseCaseDiagram3.png>
-Package pdftex.def Info: UseCaseDiagram3.png used on input line 121.
+Package pdftex.def Info: UseCaseDiagram3.png used on input line 114.
 (pdftex.def)             Requested size: 455.24408pt x 175.61679pt.
 
-Overfull \hbox (28.25542pt too wide) in paragraph at lines 121--122
+Overfull \hbox (28.25542pt too wide) in paragraph at lines 114--115
  [] 
  []
 
-[11 <C:/Users/Melany/Documents/GitHub/Software-Requirements/UseCaseDiagram2.png
+[10 <C:/Users/Melany/Documents/GitHub/Software-Requirements/UseCaseDiagram2.png
 > <C:/Users/Melany/Documents/GitHub/Software-Requirements/UseCaseDiagram3.png>]
-[12] <Diagram1.png, id=50, 433.62pt x 350.81062pt>
+[11] <Diagram1.png, id=47, 433.62pt x 350.81062pt>
 File: Diagram1.png Graphic file (type png)
  <use Diagram1.png>
-Package pdftex.def Info: Diagram1.png used on input line 151.
+Package pdftex.def Info: Diagram1.png used on input line 144.
 (pdftex.def)             Requested size: 341.43306pt x 276.24341pt.
- [13]
-<Diagram2.png, id=55, 222.8325pt x 335.75438pt>
+ [12]
+<Diagram2.png, id=51, 222.8325pt x 335.75438pt>
 File: Diagram2.png Graphic file (type png)
  <use Diagram2.png>
-Package pdftex.def Info: Diagram2.png used on input line 155.
+Package pdftex.def Info: Diagram2.png used on input line 148.
 (pdftex.def)             Requested size: 170.71652pt x 257.23038pt.
 
-<UserLogin.png, id=56, 395.22656pt x 430.60875pt>
+<UserLogin.png, id=52, 395.22656pt x 430.60875pt>
 File: UserLogin.png Graphic file (type png)
  <use UserLogin.png>
-Package pdftex.def Info: UserLogin.png used on input line 160.
+Package pdftex.def Info: UserLogin.png used on input line 153.
 (pdftex.def)             Requested size: 369.88582pt x 403.00479pt.
- [14 <C:/Users/Melany/Documents/GitHub/Software-Requirements/Diagram1.png> <C:/
+ [13 <C:/Users/Melany/Documents/GitHub/Software-Requirements/Diagram1.png> <C:/
 Users/Melany/Documents/GitHub/Software-Requirements/Diagram2.png>]
-<LecturersManagingMarksheets.png, id=62, 700.11563pt x 558.58687pt>
+<LecturersManagingMarksheets.png, id=59, 700.11563pt x 558.58687pt>
 File: LecturersManagingMarksheets.png Graphic file (type png)
 
 <use LecturersManagingMarksheets.png>
-Package pdftex.def Info: LecturersManagingMarksheets.png used on input line 164
+Package pdftex.def Info: LecturersManagingMarksheets.png used on input line 157
 .
 (pdftex.def)             Requested size: 540.60236pt x 431.3491pt.
 
-Overfull \hbox (70.93456pt too wide) in paragraph at lines 164--165
+Overfull \hbox (70.93456pt too wide) in paragraph at lines 157--158
  [] 
  []
 
-[15 <C:/Users/Melany/Documents/GitHub/Software-Requirements/UserLogin.png>]
-<Tutorsmarkingmoduleactivities.png, id=67, 369.63094pt x 405.76593pt>
+[14 <C:/Users/Melany/Documents/GitHub/Software-Requirements/UserLogin.png>]
+<Tutorsmarkingmoduleactivities.png, id=64, 369.63094pt x 405.76593pt>
 File: Tutorsmarkingmoduleactivities.png Graphic file (type png)
 
 <use Tutorsmarkingmoduleactivities.png>
 Package pdftex.def Info: Tutorsmarkingmoduleactivities.png used on input line 1
-67.
+60.
 (pdftex.def)             Requested size: 369.88582pt x 406.04974pt.
- [16 <C:/Users/Melany/Documents/GitHub/Software-Requirements/LecturersManagingM
+ [15 <C:/Users/Melany/Documents/GitHub/Software-Requirements/LecturersManagingM
 arksheets.png>]
-<UMLTechnologies.png, id=72, 1023.825pt x 734.745pt>
+<UMLTechnologies.png, id=69, 1023.825pt x 734.745pt>
 File: UMLTechnologies.png Graphic file (type png)
  <use UMLTechnologies.png>
-Package pdftex.def Info: UMLTechnologies.png used on input line 173.
+Package pdftex.def Info: UMLTechnologies.png used on input line 166.
 (pdftex.def)             Requested size: 569.05511pt x 408.38249pt.
 
-Overfull \hbox (93.69685pt too wide) in paragraph at lines 173--174
+Overfull \hbox (93.69685pt too wide) in paragraph at lines 166--167
  [] 
  []
 
-[17 <C:/Users/Melany/Documents/GitHub/Software-Requirements/Tutorsmarkingmodule
-activities.png>] [18 <C:/Users/Melany/Documents/GitHub/Software-Requirements/UM
-LTechnologies.png>] [19]
+[16 <C:/Users/Melany/Documents/GitHub/Software-Requirements/Tutorsmarkingmodule
+activities.png>]
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+ [17 <C:/Users/Melany/Documents/GitHub/Software-Requirements/UMLTechnologies.pn
+g>]
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
+ [18]
 ("C:\Users\Melany\Documents\GitHub\Software-Requirements\Software Requirements.
 aux") ) 
 Here is how much of TeX's memory you used:
@@ -297,9 +412,9 @@ Here is how much of TeX's memory you used:
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Software Requirements.pdf" (19 pages, 320848 bytes).
+Output written on "Software Requirements.pdf" (18 pages, 317412 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
