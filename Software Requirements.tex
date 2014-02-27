@@ -45,13 +45,15 @@ Electronic Marking System}
   It must be a simple, easy to use system.}
 \end{description} 
   % 4.3
-  \subsection{Integration requirements}
+  \subsection{Integration requirements:}
   \paragraph{All the data will be imported into the system via a CSV file.}
   \paragraph{The database will be updated in real time. Meaning when a mark sheet is opened, the relevant data will be uploaded to the application or web interface from the database and thus as a mark is entered by a marker, the system will be updated.}
-  \paragraph{
-   An interface with LMAP will be used. A SOAP interface will also be used.
-  }
-  \paragraph{Since speed is critical, the files used to update the database will be as small as possible. This also increases scalability}
+  \paragraph{Critical Protocols that needs to be used are:
+  SOAP - Used for exhanging structured information.
+  LDAP - Used for accessing and maintaining distributed directory information.
+  SMTP - Used for electronic mail transmission.
+  Combining these protocols will facilitate reliability, security and auditability.}
+  \paragraph{Since speed is critical, the files used to update the database will be as small as possible. This also increases scalability.}
   % 4.4
   \subsection{Architecture constraints}
   \paragraph{
@@ -59,13 +61,13 @@ Electronic Marking System}
   }
   \begin{itemize}
   \item \textbf{•Python, Django}
-  \item \textbf{•Android}
+  \item \textbf{•Android - 4.4 KITKAT}
   \item \textbf{•SQL}
   \item \textbf{•HTML 5}
-  \item \textbf{•CSS}
-  \item \textbf{•https/http}
+  \item \textbf{•CSS 3}
   \item \textbf{•CSV}
   \item \textbf{•Pdf}
+  \item \textbf{•MVC - Software Pattern}
 \end{itemize}
   % 5
   \section{Functional requirements}
@@ -118,26 +120,26 @@ Electronic Marking System}
  \paragraph*{Nice-To-Have Use Cases make the system more user friendly and provides a better user experience. This case is the Notify Student use case, this is where the system automatically, emails the student of any changes made, either to their marks, namely adding marks, updating marks and deleting marks. This functionality can also be extended to the creation, update and deleting of tasks. This will help the student to stay up to date with what tasks needs to be done in the module.}
  % 5.5
  \subsection{Use case/Services contracts}
- \paragraph*{\underline{Pre-Conditions: }\\ \textbf{Login} - User information is stored in the database.
- \\ \textbf{Create Task} - Lecturer is assigned to the module and the user has the correct permission level.
- \\ \textbf{Read Task} - A task is already created and the user has the correct permission level.
- \\ \textbf{Update Task} - A task is already created and the user has the correct permission level.
- \\ \textbf{Delete Task} - A task is already created and the user has the correct permission level.
- \\ \textbf{Add Mark} - Lecturer or Marker is assigned to the module. Task timeslot is open. A Student is assigned to the corresponding module and task.
- \\ \textbf{Read Mark} - Lecturer, Marker or Student is assigned to the module.
- \\ \textbf{Update Mark} - Lecturer is assigned to the module and the user has the correct permission level.
- \\ \textbf{Delete Mark} - Lecturer is assigned to the module and the user has the correct permission level.
- \\ \textbf{Generate Report} - Lecturer is assigned to the module and the user has the correct permission level.}
- \paragraph*{\underline{Post-Conditions:} \\ \textbf{Login} - User information has been validated.
- \\ \textbf{Create Task} - New task exists and Lecturers and Markers assigned to the module with the correct permission level is able to work with it. Students assigned to the module is notified.
- \\ \textbf{Read Task} - Knowledge is obtained.
- \\ \textbf{Update Task} - Task is now correct and Lecturers and Markers assigned to the module with the correct permission level is able to work with it. Students assigned to the module are notified.
- \\ \textbf{Delete Task} - Task is removed from the system. Students assigned to the module are notified.
- \\ \textbf{Add Mark} - Mark is added to the student's semester mark. Student who received the mark is notified.
- \\ \textbf{Read Mark} - Knowledge is obtained.
- \\ \textbf{Update Mark} - Student's semester mark is updated accordingly. Student who's mark has been updated is notified.
- \\ \textbf{Delete Mark} - Student's semester mark is updated accordingly. Student who's mark has been updated is notified.
- \\ \textbf{Generate Report} - Knowledge is obtained.}
+ \paragraph*{\underline(Pre-Conditions: }\\ Login - User information is stored in the database.
+ \\ Create Task - Lecturer is assigned to the module and the user has the correct permission level.
+ \\ Read Task - A task is already created and the user has the correct permission level.
+ \\ Update Task - A task is already created and the user has the correct permission level.
+ \\ Delete Task - A task is already created and the user has the correct permission level.
+ \\ Add Mark - Lecturer or Marker is assigned to the module. Task timeslot is open. A Student is assigned to the corresponding module and task.
+ \\ Read Mark - Lecturer, Marker or Student is assigned to the module.
+ \\ Update Mark - Lecturer is assigned to the module and the user has the correct permission level.
+ \\ Delete Mark - Lecturer is assigned to the module and the user has the correct permission level.
+ \\ Generate Report - Lecturer is assigned to the module and the user has the correct permission level.}
+ \paragraph*{\underline(Post-Conditions:} \\ Login - User information has been validated.
+ \\ Create Task - New task exists and Lecturers and Markers assigned to the module with the correct permission level is able to work with it. Students assigned to the module is notified.
+ \\ Read Task - Knowledge is obtained.
+ \\ Update Task - Task is now correct and Lecturers and Markers assigned to the module with the correct permission level is able to work with it. Students assigned to the module are notified.
+ \\ Delete Task - Task is removed from the system. Students assigned to the module are notified.
+ \\ Add Mark - Mark is added to the student's semester mark. Student who received the mark is notified.
+ \\ Read Mark - Knowledge is obtained.
+ \\ Update Mark - Student's semester mark is updated accordingly. Student who's mark has been updated is notified.
+ \\ Delete Mark - Student's semester mark is updated accordingly. Student who's mark has been updated is notified.
+ \\ Generate Report - Knowledge is obtained.}
  \begin{center}
   \includegraphics[width=120mm]{Diagram1.png}  
   \end{center}
@@ -176,7 +178,7 @@ Electronic Marking System}
   \item \textbf{•CSV - Comma-separated values}
   \item \textbf{•HTML - Hypertext Markup Language}
   \item \textbf{•HTTP - Hypertext Transfer Protocol}
-  \item \textbf{•LMAP - Lightweight Directory Access Protocol}
+  \item \textbf{•LDAP - Lightweight Directory Access Protocol}
   \item \textbf{•PDF - Portable Document Format}
   \item \textbf{•SOAP - Simple Object Access Protocol } 
   \item \textbf{•SQL - Structured Query Language}
