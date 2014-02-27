@@ -42,27 +42,77 @@
 \end{description} 
   % 4.3
   \subsection{Integration requirements}
+  \paragraph{
+  The csv file that comes from the cs website, will import the students onto a mark sheet to have the list of students.
+  }
+  \paragraph{
+  The integration channel that is being used is where the application or website is integrated with the mark sheet (database) so that they are in synchronous. When the application is started up it can get its data from the database and when a mark has been entered it will update after entering of the one mark that was entered. It will be so small of a file that when the update is made it will change almost instantly.
+  }
+  \paragraph{
+  The protocol that is used, the system (the application or website is integrated with mark sheet) is responsible for transforming data across industry standard protocols. A JSON to SOAP conversion or a SOAP/HTTP to a SOAP/JMS or SOAP/Message Queue conversion would be responsibilities of this system. 
+  }
+  \paragraph{
+  Any quality requirements for the integration itself, is performance, audit. In performance the file must be in smallest format, in audit the system lock and when things are send it must be able to check the time the file was sent
+  }
+  \paragraph{
+  The mark sheet can also be exported to a csv or a pdf for email purpose or a new mark sheet
+  }
   % 4.4
   \subsection{Architecture constraints}
+  \paragraph{
+  The technologies that are being used are:
+  }
+  \begin{itemize}
+  \item Python, Django
+  \item Android
+  \item SQL
+  \item HTML 5
+  \item CSS
+  \item https/http
+  \item Csv
+  \item Pdf
+  \item XML
+  \item POP3 and SMTP
+\end{itemize}
+\paragraph{Client-Queue-Client systems - passive queue architecture}
+\paragraph{This approach allows markers to send marks to a mark sheet. Markers can read data from and send data to a server that acts simply as a queue to store the data and let the lecturer edit and look at the marks and students retrieve marks to browse. This allows multiple users to distribute and synchronize files and information. The fact that this architecture has a queue, that is all why this will be used. This architecture will be used partially for the system. 
+}
+\paragraph{SOAP interface is what this system is mainly going to focus on }
+\paragraph{It is a protocol to send markup(structured) information of web services, the system will work on xml and csv. It dependent on message frameworks; which is the smallest over internet for communication. For when the marker retrieve of the mark sheet and giving marks the system will synchronous. The sync will be between application/website and mark sheet(database).
+}
   % 5
   \section{Functional requirements}
   % 5.1
   \subsection{Introduction}
-  \paragraph*{Any registered user should be able to log in and out of the system using a unique username and password. After a user has loged in, he is redirected to his home page.}
-  \paragraph*{A student must be able to view their marks on the application as well as on  the web interface. The student can then view each module's marks separately via links to each module. }
-  \paragraph*{A marker, has additional links to the modules he marks. When a marker click on these links, the active marksheet of the module is displayed. The marker can then click on the marksheet to open the mark sheet and enter marks. When the marker open the mark sheet he has to enter the students initials, surname, full name, student number or username. The system has to use autocomplete search for this function. The marker then may view, delete add or modify the marks. Afterwards he has to save and clode the mark sheet.}
-  \paragraph*{On a lecturer's home page, a list of all his old mark sheets is displayed. On the home page, he may either create a new mark sheet, or view an old mark sheet. An old mark sheet can be viewed by searching or by selecting one out of the list.}
-  \paragraph*{To create a new marksheet, the lecturer of a module must have a [New Mark Sheet] button. For each new marksheet, the lecturer should be able to enter a description, question amount with a maximum amount of marks per question, a rubric, marker's privileges, expiry date and release date. The marking privileges refer to who may enter or change marks, the default should be the lecturer only. The expiry date refer to whan the marksheet is locked, meaning no more marks may be entered. The release date refer to when the student may view their marks, the default is the expiry date. After all the details are filled in, there should be a form of confirmation like a [confirm] button.}
-  \paragraph*{When viewing a mark sheet, the lecturer may choose to unlock the marksheet. The lecturer may then modify the marks on the sheet. The lecturer must save the mark sheet and lock it. }
-  \paragraph*{When viewing a mark sheet, the lecturer may export the mark sheet in either csv or pdf file. he may also choose to delete the mark sheet}
-  \paragraph*{The lecturer should be able to view statistics of a mark sheet.  This report must be exportable as a pdf. This includes the percentages that passed and has extinctions, as well as the average and standard deviation. The report also include a distribution graph, pie chart and bar graph.}
-  \paragraph*{The system must be able to calculate compositional marks.}
+  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ01) \\
+  Any registered user should be able to log in and out of the system using a unique username and password. After a user has loged in, he is redirected to his home page.}
+  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ02) \\
+  A student must be able to view their marks on the application as well as on  the web interface. The student can then view each module's marks separately via links to each module. }
+  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ03) \\
+  A marker, has additional links to the modules he marks. When a marker click on these links, the active marksheet of the module is displayed. The marker can then click on the marksheet to open the marksheet and enter marks. When the marker open the marksheet he has to enter the students initials, surname, full name, student number or username. The system has to use autocomplete search for this function. The marker then may view, delete add or modify the marks. Afterwards he has to save and close the marksheet.}
+  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ04) \\
+  On a lecturer's home page, a list of all his existing marksheets is displayed. On the home page, he may either create a new marksheet, or view an existing marksheet. An existing mark sheet can be viewed by searching or by selecting one out of the list.}
+  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ05) \\
+  To create a new marksheet, the lecturer of a module must have a [New Marksheet] button. For each new marksheet, the lecturer should be able to enter a description, question amount with a maximum amount of marks per question, a rubric, marker's privileges, expiry date and release date. The marking privileges refer to who may enter or change marks, the default should be the lecturer only. The expiry date refer to whan the marksheet is locked, meaning no more marks may be entered. The release date refer to when the student may view their marks, the default is the expiry date. After all the details are entered, there must be a form of confirmation like a [confirm] button.}
+  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ06) \\
+  When viewing a marksheet, the lecturer may choose to unlock the marksheet. The lecturer may then modify the marks on the sheet. The lecturer must save the mark sheet and lock it. }
+  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ07) \\
+  When viewing a marksheet, the lecturer may export the marksheet in either csv or pdf file. he may also choose to delete the mark sheet}
+  \paragraph{ (Source: Jan Kroeze, Priority: Medium, Requirement: FRQ08) \\
+  The lecturer should be able to view statistics of a marksheet.  This report must be exportable as a pdf. This includes the percentages that passed and has extinctions, as well as the average and standard deviation. The report also include a distribution graph, pie chart and bar graph.}
+  \paragraph{ (Source: Jan Kroeze, Priority: Medium, Requirement: FRQ09) \\
+  The system must be able to calculate compositional marks.}
+  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ10) \\
+  The system must log all changes made to the marksheet. This must include a timestamp, the modification and the user involved. Only the lecturer should be able to view the log.}
  % 5.2
   \subsection{Scope and Limitations/Exclusions}
   % 5.3
   \subsection{Required functionality}
   % 5.4
  \subsection{Use case prioritization}
+ \paragraph*{Critical Use Cases are the main cases that the system is made up of namely, Logging In, Create Tasks, Create Marks and Generating Reports. Without these cases the system will have limited to no functionality which will lead to a system that is not required by anyone.}
+ \paragraph*{Important Use Cases are the cases that improves the critical use cases and introduces a wider variety of functionality. These cases are Read, Update and Delete of Tasks, Read Update  and Delete of Marks.}
+ \paragraph*{Nice-To-Have Use Cases make the system more user friendly and provides a better user experience. This case is the Notify Student use case, this is where the system automatically, emails the student of any changes made, either to their marks, namely adding marks, updating marks and deleting marks. This functionality can also be extended to the creation, update and deleting of tasks. This will help the student to stay up to date with what tasks needs to be done in the module.}
  % 5.5
  \subsection{Use case/Services contracts}
  % 5.6
