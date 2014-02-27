@@ -46,21 +46,12 @@ Electronic Marking System}
 \end{description} 
   % 4.3
   \subsection{Integration requirements}
-  \paragraph{
-  The csv file that comes from the cs website, will import the students onto a mark sheet to have the list of students.
-  }
-  \paragraph{
-  The integration channel that is being used is where the application or website is integrated with the mark sheet (database) so that they are in synchronous. When the application is started up it can get its data from the database and when a mark has been entered it will update after entering of the one mark that was entered. It will be so small of a file that when the update is made it will change almost instantly.
-  }
+  \paragraph{All the data will be imported into the system via a CSV file.}
+  \paragraph{The database will be updated in real time. Meaning when a mark sheet is opened, the relevant data will be uploaded to the application or web interface from the database and thus as a mark is entered by a marker, the system will be updated.}
   \paragraph{
   The protocol that is used, the system (the application or website is integrated with mark sheet) is responsible for transforming data across industry standard protocols. A JSON to SOAP conversion or a SOAP/HTTP to a SOAP/JMS or SOAP/Message Queue conversion would be responsibilities of this system. 
   }
-  \paragraph{
-  Any quality requirements for the integration itself, is performance, audit. In performance the file must be in smallest format, in audit the system lock and when things are send it must be able to check the time the file was sent
-  }
-  \paragraph{
-  The mark sheet can also be exported to a csv or a pdf for email purpose or a new mark sheet
-  }
+  \paragraph{Since speed is critical, the files used to update the database will be as small as possible. This also increases scalability}
   % 4.4
   \subsection{Architecture constraints}
   \paragraph{
