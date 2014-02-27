@@ -84,26 +84,30 @@
   \section{Functional requirements}
   % 5.1
   \subsection{Introduction}
-  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ01) \\
+  \paragraph{ (Source: Jan Kroeze, Priority: Critical, Requirement: FRQ01) \\
   Any registered user should be able to log in and out of the system using a unique username and password. After a user has loged in, he is redirected to his home page.}
-  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ02) \\
+  \paragraph{ (Source: Jan Kroeze, Priority: Critical, Requirement: FRQ02) \\
   A student must be able to view their marks on the application as well as on  the web interface. The student can then view each module's marks separately via links to each module. }
-  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ03) \\
+  \paragraph{ (Source: Jan Kroeze, Priority: Critical, Requirement: FRQ03) \\
   A marker, has additional links to the modules he marks. When a marker click on these links, the active marksheet of the module is displayed. The marker can then click on the marksheet to open the marksheet and enter marks. When the marker open the marksheet he has to enter the students initials, surname, full name, student number or username. The system has to use autocomplete search for this function. The marker then may view, delete add or modify the marks. Afterwards he has to save and close the marksheet.}
-  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ04) \\
+  \paragraph{ (Source: Jan Kroeze, Priority: Critical, Requirement: FRQ04) \\
   On a lecturer's home page, a list of all his existing marksheets is displayed. On the home page, he may either create a new marksheet, or view an existing marksheet. An existing mark sheet can be viewed by searching or by selecting one out of the list.}
-  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ05) \\
+  \paragraph{ (Source: Jan Kroeze, Priority: Critical, Requirement: FRQ05) \\
   To create a new marksheet, the lecturer of a module must have a [New Marksheet] button. For each new marksheet, the lecturer should be able to enter a description, question amount with a maximum amount of marks per question, a rubric, marker's privileges, expiry date and release date. The marking privileges refer to who may enter or change marks, the default should be the lecturer only. The expiry date refer to whan the marksheet is locked, meaning no more marks may be entered. The release date refer to when the student may view their marks, the default is the expiry date. After all the details are entered, there must be a form of confirmation like a [confirm] button.}
-  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ06) \\
+  \paragraph{ (Source: Jan Kroeze, Priority: Critical, Requirement: FRQ06) \\
   When viewing a marksheet, the lecturer may choose to unlock the marksheet. The lecturer may then modify the marks on the sheet. The lecturer must save the mark sheet and lock it. }
-  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ07) \\
+  \paragraph{ (Source: Jan Kroeze, Priority: Critical, Requirement: FRQ07) \\
   When viewing a marksheet, the lecturer may export the marksheet in either csv or pdf file. he may also choose to delete the mark sheet}
-  \paragraph{ (Source: Jan Kroeze, Priority: Medium, Requirement: FRQ08) \\
+  \paragraph{ (Source: Jan Kroeze, Priority: Important, Requirement: FRQ08) \\
   The lecturer should be able to view statistics of a marksheet.  This report must be exportable as a pdf. This includes the percentages that passed and has extinctions, as well as the average and standard deviation. The report also include a distribution graph, pie chart and bar graph.}
-  \paragraph{ (Source: Jan Kroeze, Priority: Medium, Requirement: FRQ09) \\
+  \paragraph{ (Source: Jan Kroeze, Priority: Important, Requirement: FRQ09) \\
   The system must be able to calculate compositional marks.}
-  \paragraph{ (Source: Jan Kroeze, Priority: High, Requirement: FRQ10) \\
+  \paragraph{ (Source: Jan Kroeze, Priority: Critical, Requirement: FRQ10) \\
   The system must log all changes made to the marksheet. This must include a timestamp, the modification and the user involved. Only the lecturer should be able to view the log.}
+  \paragraph{ (Source: Jan Kroeze, Priority: Nice-To-Have, Requirement: FRQ11) \\
+  The system must notify a student when his marks is modified.}
+  \paragraph{ (Source: Jan Kroeze, Priority: Important, Requirement: FRQ11) \\
+  The system must automatically log out after no activity in 30 minutes.}
  % 5.2
   \subsection{Scope and Limitations/Exclusions}
   % 5.3
@@ -115,34 +119,19 @@
  \paragraph*{Nice-To-Have Use Cases make the system more user friendly and provides a better user experience. This case is the Notify Student use case, this is where the system automatically, emails the student of any changes made, either to their marks, namely adding marks, updating marks and deleting marks. This functionality can also be extended to the creation, update and deleting of tasks. This will help the student to stay up to date with what tasks needs to be done in the module.}
  % 5.5
  \subsection{Use case/Services contracts}
- \paragraph*{Pre-Conditions:}
- \paragraph*{Login - User information is stored in the database.
- Create Task - Lecturer is assigned to the module and the user has the correct permission level.
- Read Task - A task is already created and the user has the correct permission level.
- Update Task - A task is already created and the user has the correct permission level.
- Delete Task - A task is already created and the user has the correct permission level.
- Add Mark - Lecturer or Marker is assigned to the module. Task timeslot is open. A Student is assigned to the corrosponding module and task.
- Read Mark - Lecturer, Marker or Student is assigned to the module.
- Update Mark - Lecturer is assigned to the module and the user has the correct permission level.
- Delete Mark - Lecturer is assigned to the module and the user has the correct permission level.
- Generate Report - Lecturer is assigned to the module and the user has the correct permission level.}
- \paragraph*{Post-Conditions:}
- \paragraph*{Login - User information has been validated.
- Create Task - New task exists and Lecturers and Markers assigned to the module with the correct permission level is able to work with it. Students assigned to the module is notified.
- Read Task - Knowledge is obtained.
- Update Task - Task is now correct and Lecturers and Markers assigned to the module with the correct permission level is able to work with it. Students assigned to the module are notified.
- Delete Task - Task is removed from the system. Students assigned to the module are notified.
- Add Mark - Mark is added to the student's semester mark. Student who received the mark is notified.
- Read Mark - Knowledge is obtained.
- Update Mark - Student's semester mark is updated accourdingly. Student who's mark hase been updated is notified.
- Delete Mark - Student's semester mark is updated accourdingly. Student who's mark hase been updated is notified.
- Generate Report - Knowledge is obtained.}
  % 5.6
  \subsection{Process specifications}
  % 5.7
  \subsection{Domain Objects}
  % 6
  \section{Open Issues}
+\begin{itemize}
+  \item Theft/Loss of mobile device
+\end{itemize}
  % 7
  \section{Glossary} 
+ \begin{itemize}
+  \item CSV - Comma-separated values
+  \item UML - Unified Modeling Language
+\end{itemize}
 \end{document}
