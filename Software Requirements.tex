@@ -49,7 +49,7 @@ Electronic Marking System}
   \paragraph{All the data will be imported into the system via a CSV file.}
   \paragraph{The database will be updated in real time. Meaning when a mark sheet is opened, the relevant data will be uploaded to the application or web interface from the database and thus as a mark is entered by a marker, the system will be updated.}
   \paragraph{
-  The protocol that is used, the system (the application or website is integrated with mark sheet) is responsible for transforming data across industry standard protocols. A JSON to SOAP conversion or a SOAP/HTTP to a SOAP/JMS or SOAP/Message Queue conversion would be responsibilities of this system. 
+   An interface with LMAP will be used as well as a SOAP interface.
   }
   \paragraph{Since speed is critical, the files used to update the database will be as small as possible. This also increases scalability}
   % 4.4
@@ -67,7 +67,6 @@ Electronic Marking System}
   \item CSV
   \item Pdf
   \item XML
-  \item POP3 and SMTP
 \end{itemize}
 \paragraph{Client-Queue-Client systems - passive queue architecture}
 \paragraph{This approach allows markers to send marks to a mark sheet. Markers can read data from and send data to a server that acts simply as a queue to store the data and let the lecturer edit and look at the marks and students retrieve marks to browse. This allows multiple users to distribute and synchronize files and information. The fact that this architecture has a queue, that is all why this will be used. This architecture will be used partially for the system. 
