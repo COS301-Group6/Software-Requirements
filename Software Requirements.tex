@@ -49,7 +49,7 @@ Electronic Marking System}
   \paragraph{All the data will be imported into the system via a CSV file.}
   \paragraph{The database will be updated in real time. Meaning when a mark sheet is opened, the relevant data will be uploaded to the application or web interface from the database and thus as a mark is entered by a marker, the system will be updated.}
   \paragraph{
-   An interface with LMAP will be used. A SOAP interface will also be used.
+   An interface with LDAP will be used. A SOAP interface will also be used.
   }
   \paragraph{Since speed is critical, the files used to update the database will be as small as possible. This also increases scalability}
   % 4.4
@@ -67,6 +67,7 @@ Electronic Marking System}
   \item \textbf{•CSV}
   \item \textbf{•Pdf}
 \end{itemize}
+\paragraph{SOAP interface is what this system is mainly going to focus on - It is a protocol to send markup(structured) information of web services, the system will work with CSV files.}
   % 5
   \section{Functional requirements}
   % 5.1
@@ -176,7 +177,7 @@ Electronic Marking System}
   \item \textbf{•CSV - Comma-separated values}
   \item \textbf{•HTML - Hypertext Markup Language}
   \item \textbf{•HTTP - Hypertext Transfer Protocol}
-  \item \textbf{•LMAP - Lightweight Directory Access Protocol}
+  \item \textbf{•LDAP - Lightweight Directory Access Protocol}
   \item \textbf{•PDF - Portable Document Format}
   \item \textbf{•SOAP - Simple Object Access Protocol } 
   \item \textbf{•SQL - Structured Query Language}
