@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.2.24)  27 FEB 2014 21:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.2.24)  27 FEB 2014 21:23
 entering extended mode
 **Software*Requirements.tex
 
@@ -397,6 +397,9 @@ Missing character: There is no ¢ in font cmbx12!
 Missing character: There is no â in font cmbx12!
 Missing character: There is no € in font cmbx12!
 Missing character: There is no ¢ in font cmbx12!
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ¢ in font cmbx12!
  [18]
 ("C:\Users\Melany\Documents\GitHub\Software-Requirements\Software Requirements.
 aux") ) 
@@ -412,7 +415,7 @@ Here is how much of TeX's memory you used:
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Software Requirements.pdf" (18 pages, 317993 bytes).
+Output written on "Software Requirements.pdf" (18 pages, 318013 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
